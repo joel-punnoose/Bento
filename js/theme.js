@@ -38,7 +38,7 @@ Theme accordint the hour
 
 const today = new Date();
 
-if (hour >= 19 || hour < 5) {
+if (hour >= 17 || hour < 5) {
     enableDark();
 } else {
     disableDark();
